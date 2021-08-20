@@ -6,9 +6,9 @@ def main():
 
     r = math.radians(b)
 
-    l = (a / (math.sin(r)))
+    l = round(a / (math.sin(r)))
 
-    print('Largo de la escalera: '+str(math.ceil(l)))
+    print('Largo de la escalera: '+str(l))
 
 if __name__ == '__main__':
     main()
