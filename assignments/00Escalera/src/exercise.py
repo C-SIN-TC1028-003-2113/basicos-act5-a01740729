@@ -6,7 +6,7 @@ def main():
 
     r = math.radians(b)
 
-    l = (a / (math.sin(b)))
+    l = (a / (math.sin(r)))
 
     print('Largo de la escalera: '+str(math.ceil(l)))
 
